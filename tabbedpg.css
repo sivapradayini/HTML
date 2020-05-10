@@ -1,0 +1,280 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc;
+    background-color: #f1f1f1; */
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(67, 154, 180);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 85%;
+    height: 500px;
+}
+
+#red {
+    background-color: red;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+
+}
+
+#blue {
+    background-color: blue;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+}
+
+#green {
+    background-color: green;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+}
+
+#yellow {
+    background-color: yellow;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+}
+
+#orange {
+    background-color: orange;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+}
+
+#pink {
+    background-color: pink;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+}
+
+#purple {
+    background-color: purple;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+}
+
+#white {
+    background-color: white;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+}
+
+#black {
+    background-color: black;
+    border-top: 0ch;
+    border-bottom: 0.3em double maroon;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-right-radius: 10%;
+}
+
+#red1 {
+    background-color: red;
+    border: 0.3em double maroon;
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em red;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 120px;
+
+
+}
+
+#blue1 {
+    background-color: blue;
+
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em blue;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+    width: 120px;
+
+}
+
+#green1 {
+    background-color: green;
+    border: 0.3em double maroon;
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em red;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 120px;
+}
+
+#yellow1 {
+    background-color: yellow;
+    border: 0.3em double maroon;
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em red;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 120px;
+}
+
+#orange1 {
+    background-color: orange;
+    border: 0.3em double maroon;
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em red;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 120px;
+}
+
+#pink1 {
+    background-color: pink;
+    border: 0.3em double maroon;
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em red;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 120px;
+}
+
+#purple1 {
+    background-color: purple;
+    border: 0.3em double maroon;
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em red;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 120px;
+}
+
+#black1 {
+    background-color: black;
+    border: 0.3em double maroon;
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em red;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 120px;
+}
+
+#white1 {
+    background-color: whitesmoke;
+    border: 0.3em double maroon;
+    border-top: 0.3em double maroon;
+    border-bottom: 0.3em red;
+    border-left: 0.3em double maroon;
+    border-right: 0.3em double maroon;
+
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 120px;
+}
+
+
+/* #red1:hover {
+    background-color: red;
+    color: red;
+
+
+}
+
+#blue1:hover {
+    background-color: blue;
+    color: blue;
+}
+
+#green1:hover {
+    background-color: green;
+    color: green;
+}
+
+#yellow1:hover {
+    background-color: yellow;
+    color: yellow;
+}
+
+#orange1:hover {
+    background-color: orange;
+    color: orange;
+}
+
+#pink1:hover {
+    background-color: pink;
+    color: pink;
+} */
