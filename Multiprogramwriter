@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        textarea{
+            text-align: left;
+            font-size: large;
+            color: darkblue;
+        }
+
+        h1{
+text-align: center;
+color: darkblue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Programs</title>
+</head>
+<body>
+    <h1>Note: Enter only correct programs as it is saved in the Server</h1>
+    <form action="/action_page.php" method="POST">
+        <textarea name="pythonprogram" rows="100" cols="70" placeholder="Enter Python Program"></textarea>
+       
+        <textarea name="javaprogram" rows="100" cols="70" placeholder="Enter Java Program"></textarea>
+     
+        <textarea name="c#program" rows="100" cols="70" placeholder="Enter C# Program"></textarea>
+        <textarea name="f#program" rows="100" cols="70" placeholder="Enter f# Program"></textarea>
+        
+        <textarea name="c++program" rows="100" cols="70" placeholder="Enter C++ Program"></textarea>
+        
+        <textarea name="phpprogram" rows="100" cols="70" placeholder="Enter php Program"></textarea>
+        <textarea name="javascriptprogram" rows="100" cols="70" placeholder="Enter javascript Program"></textarea>
+        <textarea name="cprogram" rows="100" cols="70" placeholder="Enter c Program"></textarea>
+       
+        <input type="submit">
+      </form>
+</body>
+</html>
