@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function add() {
+            var p = document.getElementById("parent");
+            let n = document.createElement('input');   
+            n.type ="file";
+            n.setAttribute('id','child');
+            n.placeholder = "Upload Files" ;       
+            p.appendChild(n);
+        }
+        function removeElement(parentDiv, childDiv) {
+            if (childDiv == parentDiv) {
+                alert("The parent div cannot be removed.");
+            }
+            else if (document.getElementById(childDiv)) {
+                var child = document.getElementById(childDiv);
+                var parent = document.getElementById(parentDiv);
+                parent.removeChild(child);
+            }
+            else {
+                alert("Child div has already been removed or does not exist.");
+                return false;
+            }
+        }
+        
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Adding and Removing elements</h1>
+    <input type="button" value="Add Element" onClick="add();">
+
+    <div id="parent" style="border: 1px solid red; padding: 10px;">
+        I am the parent div.
+        <input type="file" id="child" style="border: 1px solid green; padding: 10px;">
+            <!-- I am a child div within the parent div. -->
+        </div>
+    </div>
+    <input type="button" value="Remove Element" onClick="removeElement('parent','child');">
+</body>
+
+</html>
